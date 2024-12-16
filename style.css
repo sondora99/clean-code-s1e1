@@ -35,7 +35,7 @@
 .add-item__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-item__input-container {
@@ -133,7 +133,7 @@
 }
 
 .task-manager__item > .task-manager__input {
-  width: 226px
+  width: 226px;
 }
 
 .button__delete__img {
@@ -148,18 +148,18 @@
 
 /* Completed */
 .task-manager__list--complited .task-manager__label {
-  text-decoration: line-through
-    color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
 .task-manager__input {
-  display: none
+  display: none;
 }
 
 .task-manager__item.editMode .task-manager__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-manager__item.editMode .task-manager__label {

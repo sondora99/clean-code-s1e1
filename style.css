@@ -26,12 +26,12 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task-manager__input {
+.add-item__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
-.task-manager__input-container {
+.add-item__input-container {
   display: flex;
 }
 .task-manager__list {
@@ -41,7 +41,7 @@
 .task-manager__item, .task-manager__title {
   list-style:none;
 }
-.task-manager__input, .task-manager__checkbox, .task-manager__input__task, .button{
+.task-manager__input, .task-manager__checkbox, .add-item__input, .button{
   outline:none;
 }
 .button {

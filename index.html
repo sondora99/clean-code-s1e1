@@ -12,9 +12,9 @@
     </div>
     <div class="task-manager">
       <p id="task-manager__add-item">
-        <label class="task-manager__label" for="new-task">Add Item</label>
-        <div class="task-manager__input-container">
-          <input id="new-task" class="task-manager__input" type="text">
+        <label class="task-manager__title" for="new-task">Add Item</label>
+        <div class="add-item__input-container">
+          <input id="new-task" class="add-item__input" type="text">
           <button class="button">Add</button>
         </div>
       </p>
@@ -23,19 +23,19 @@
         <li class="task-manager__item">
           <input class="task-manager__checkbox" type="checkbox">
           <label class="task-manager__label">Pay Bills</label>
-          <input class="task-manager__input__task" type="text">
+          <input class="task-manager__input" type="text">
           <button class="button button__edit">Edit</button>
           <button class="button button__delete">
-            <img src="./remove.svg">
+            <img class="button__delete__img" src="./remove.svg">
           </button>
         </li>
         <li class="task-manager__item editMode">
           <input class="task-manager__checkbox" type="checkbox">
           <label class="task-manager__label">Go Shopping</label>
-          <input class="task-manager__input__task" type="text" value="Go Shopping">
+          <input class="task-manager__input" type="text" value="Go Shopping">
           <button class="button button__edit">Save</button>
           <button class="button button__delete">
-            <img src="./remove.svg">
+            <img class="button__delete__img" src="./remove.svg">
           </button>
         </li>
       </ul>
@@ -44,10 +44,10 @@
         <li class="task-manager__item">
           <input class="task-manager__checkbox" type="checkbox" checked>
           <label class="task-manager__label">See the Doctor</label>
-          <input class="task-manager__input__task" type="text">
+          <input class="task-manager__input" type="text">
           <button class="button button__edit">Edit</button>
           <button class="button button__delete">
-            <img src="./remove.svg">
+            <img class="button__delete__img" src="./remove.svg">
           </button>
         </li>
       </ul>
